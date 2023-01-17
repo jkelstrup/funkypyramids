@@ -1,0 +1,7 @@
+.Editor {
+  background: #242424;
+  border-left: 1px solid black;
+  width: 360px;
+  flex-shrink: 0;
+  padding: 2em;
+}

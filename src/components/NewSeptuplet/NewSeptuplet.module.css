@@ -1,0 +1,42 @@
+.Placeholder {
+  /* background: lime; */
+  width: 80px;
+  border-radius: 40%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  position: relative;
+  margin: 16px;
+  transition: border-radius 120ms ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5em;
+  border: 1px solid hsla(0 0% 100% / .2);
+  transition: background 200ms ease-out, border-radius 200ms ease-out;
+}
+
+.Placeholder:nth-child(1),
+.Placeholder:nth-child(7) {
+  opacity: .2;
+}
+
+.Placeholder:nth-child(2),
+.Placeholder:nth-child(6) {
+  opacity: .4;
+}
+
+.Placeholder:nth-child(3),
+.Placeholder:nth-child(5) {
+  opacity: .6;
+}
+
+.NewSeptuplet {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.NewSeptuplet:hover .Placeholder {
+  background: hsla(0 0% 100% / .05);
+  cursor: pointer;
+}

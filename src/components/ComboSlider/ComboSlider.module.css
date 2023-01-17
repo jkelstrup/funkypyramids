@@ -1,0 +1,21 @@
+.ComboSlider {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputs {
+  flex: 1 0 0;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom {
+  display: flex;
+}
+
+.bottom input[type="range"] {
+  flex: 1 0 0;
+}
